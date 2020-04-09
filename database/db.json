@@ -1,0 +1,236 @@
+{
+  "adidas": [
+    {
+      "productName": "ULTRABOOT 20 SHOES",
+      "productImage": "img/products/shoes/ultraboot-1.jpg",
+      "price": "$200.00",
+      "producttype": "Running",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 1
+    },
+    {
+      "productName": "ULTRABOOT 20 SHOES",
+      "productImage": "img/products/shoes/ultraboot-2.jpg",
+      "price": "$200.00",
+      "producttype": "Running",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 2
+    },
+    {
+      "productName": "ULTRABOOT 20 SHOES",
+      "productImage": "img/products/shoes/ultraboot-3.jpg",
+      "price": "$200.00",
+      "producttype": "Running",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 3
+    },
+    {
+      "productName": "ULTRABOOT 20 SHOES",
+      "productImage": "img/products/shoes/ultraboot-4.jpg",
+      "price": "$200.00",
+      "producttype": "Running",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 4
+    },
+    {
+      "productName": "FLUIDFLOW",
+      "productImage": "img/products/shoes/Fluidflow-1.jpg",
+      "price": "$150.00",
+      "producttype": "Running",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 5
+    },
+    {
+      "productName": "FLUIDFLOW",
+      "productImage": "img/products/shoes/Fluidflow-2.jpg",
+      "price": "$150.00",
+      "producttype": "Running",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 6
+    },
+    {
+      "productName": "OZWEEGO",
+      "productImage": "img/products/shoes/Ozweego.jpg",
+      "price": "$130.00",
+      "producttype": "Running",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 7
+    },
+    {
+      "productName": "SL20",
+      "productImage": "img/products/shoes/Sl20-1.jpg",
+      "price": "$120.00",
+      "producttype": "Running",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 8
+    },
+    {
+      "productName": "SL20",
+      "productImage": "img/products/shoes/Sl20-2.jpg",
+      "price": "$120.00",
+      "producttype": "Running",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 9
+    }
+  ],
+  "clothing": [
+    {
+      "productName": "GERMANY AWAY JERSEY",
+      "productImage": "img/products/clothing/ao-1.jpg",
+      "price": "$80.00",
+      "producttype": "MEN'S SOCCER",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 1
+    },
+    {
+      "productName": "REAL MADRID JERSEY",
+      "productImage": "img/products/clothing/ao-2.jpg",
+      "price": "$80.00",
+      "producttype": "MEN'S SOCCER",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 2
+    },
+    {
+      "productName": "MANCHESTER UNITED JERSEY",
+      "productImage": "img/products/clothing/ao-3.jpg",
+      "price": "$80.00",
+      "producttype": "MEN'S SOCCER",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 3
+    },
+    {
+      "productName": "T-SHIRTS HEAT.RDY",
+      "productImage": "img/products/clothing/heat-dry.jpg",
+      "price": "$50.00",
+      "producttype": "MEN'S SPORT INSPIRED",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 4
+    },
+    {
+      "productName": "HOODIES",
+      "productImage": "img/products/clothing/hoodie-1.jpg",
+      "price": "$56.00",
+      "producttype": "MEN'S ORIGINALS",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 5
+    },
+    {
+      "productName": "HOODIES",
+      "productImage": "img/products/clothing/hoodie-2.jpg",
+      "price": "$100.00",
+      "producttype": "MEN'S ORIGINALS",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 6
+    },
+    {
+      "productName": "VRCT-JACKET",
+      "productImage": "img/products/clothing/khoac-1.jpg",
+      "price": "$100.00",
+      "producttype": "MEN'S ORIGINALS",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 7
+    },
+    {
+      "productName": "ADIDAS W.N.D. JACKET",
+      "productImage": "img/products/clothing/khoac-2.jpg",
+      "price": "$86.00",
+      "producttype": "MEN'S ORIGINALS",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 8
+    },
+    {
+      "productName": "OWN THE RUN JACKET",
+      "productImage": "img/products/clothing/khoac-3.jpg",
+      "price": "$60.00",
+      "producttype": "MEN'S ORIGINALS",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 9
+    }
+  ],
+  "accessories": [
+    {
+      "productName": "POWER 5 BACKPACK",
+      "productImage": "img/products/accessories/balo-1.jpg",
+      "price": "$40.00",
+      "producttype": "Training",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 1
+    },
+    {
+      "productName": "CLASSIC BACKPACK",
+      "productImage": "img/products/accessories/balo-2.jpg",
+      "price": "$25.00",
+      "producttype": "ORIGINALS",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 2
+    },
+    {
+      "productName": "CLASSIC BACKPACK",
+      "productImage": "img/products/accessories/balo-3.jpg",
+      "price": "$25.00",
+      "producttype": "ORIGINALS",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 3
+    },
+    {
+      "productName": "4ATHLTS DUFFEL BAG MEDIUM",
+      "productImage": "img/products/accessories/balo-4.jpg",
+      "price": "$44.00",
+      "producttype": "Training",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 4
+    },
+    {
+      "productName": "PARKHOOD ",
+      "productImage": "img/products/accessories/balo-5.jpg",
+      "price": "$23.00",
+      "producttype": "Training",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 5
+    },
+    {
+      "productName": "ADICROSS BACK PACK",
+      "productImage": "img/products/accessories/balo-6.jpg",
+      "price": "$130.0",
+      "producttype": "Training",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 6
+    },
+    {
+      "productName": "ADI RLXPRF ",
+      "productImage": "img/products/accessories/mu-1.jpg",
+      "price": "$20.00",
+      "producttype": "Golf",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 7
+    },
+    {
+      "productName": "PERFORMANCE HAT",
+      "productImage": "img/products/accessories/mu-2.jpg",
+      "price": "$25.00",
+      "producttype": "Golf",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 8
+    },
+    {
+      "productName": "ADI MULLY PERF HAT",
+      "productImage": "img/products/accessories/mu-3.jpg",
+      "price": "$30.00",
+      "producttype": "Golf",
+      "description": "Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum dolor sit amet, consectetur adipisicing elit, sed do mod tempor",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "hoangbachhiep2190@gmail.com",
+      "password": "12345!"
+    },
+    {
+      "id": "2",
+      "username": "hoangbachhiep2190+1@gmail.com",
+      "password": "12345"
+    }
+  ]
+}
