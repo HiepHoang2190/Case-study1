@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fashi Template">
+    <meta name="keywords" content="Fashi, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product-Management</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/globall.css">
+</head>
+
+<body>
+    <style>
+      
+        .nav-item {
+            background: #c92e2e;
+        }
+        .nav-item .nav-menu {
+            background: #c92e2e;
+        }
+        .nav-item .nav-menu li .dropdown {
+	
+	background: #e7ab3c;
+	
+}
+    </style>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="header-top">
+            <div class="container">
+                <div class="ht-left">
+                    <div class="mail-service">
+                        <i class=" fa fa-envelope"></i>
+                        hoangbachhiep2190@gmail.com
+                    </div>
+                    <div class="phone-service">
+                        <i class=" fa fa-phone"></i>
+                        +84 973.586.506
+                    </div>
+                </div>
+                <div class="ht-right">
+                    <a href="./index.html" class="login-panel"><i class="fa fa-user"></i>Log out</a>
+                    <div class="lan-selector">
+                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt" data-title="English">
+                            </option>
+                            English</option>
+                            <option value='yu' data-image="img/flag-vietnam.png" data-imagecss="flag yu"
+                                data-title="Vietnam">Vietnam </option>
+                        </select>
+                    </div>
+                    <div class="top-social">
+                        <a href="#"><i class="ti-facebook"></i></a>
+                        <a href="#"><i class="ti-twitter-alt"></i></a>
+                        <a href="#"><i class="ti-linkedin"></i></a>
+                        <a href="#"><i class="ti-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-header">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="img/adidas-logo.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-7 col-md-7">
+                        <div class="advanced-search">
+                            <button type="button" class="category-btn">All Categories</button>
+                            <form action="#" class="input-group">
+                                <input type="text" placeholder="What do you need?">
+                                <button type="button"><i class="ti-search"></i></button>
+                            </form>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+        <div class="nav-item">
+            <div class="container">
+
+                <nav class="nav-menu mobile-menu">
+                    <ul>
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="./shoes.html">Shop</a>
+
+                            <ul class="dropdown dropdown-menu-left ">
+                                <li><a href="./shoes.html">Shoes</a></li>
+                                <li><a href="./clothing.html">Clothing</a></li>
+                                <li><a href="./accessories.html">Accessories</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="./Product-management.html">
+                                Product-Management</a>
+
+                            <ul class="dropdown dropdown-menu-left">
+                                <li><a href="./Product-management.html">Management-Shoes</a></li>
+                                <li><a href="./management-clothing.html">Management-Clothing</a></li>
+                                <li><a href="./management-accessories.html">Management-Accessories</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+                <div id="mobile-menu-wrap"></div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <div class="breacrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text product-more">
+                        <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                        <a href="./shoes.html">Shop</a>
+                        <span>Product-management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Section Begin -->
+    <div class="container">
+        <a href="javascript:void(0);" class="btn btn-outline-warning   mt-10 " onclick="dashboard.openModal()">Create
+            new
+            Product</a>
+    </div>
+
+    <!-- Shopping Cart Section Begin -->
+    <section class="shopping-cart spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="cart-table">
+                        <table class=" table-bordered table-hover " id="tbProducts">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th class="p-name">Description</th>
+                                    <th>Product Name</th>
+                                    <th>ProductType</th>
+                                    <th>Price</th>
+                                    <th>Edit</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- <tr>
+                                    <td class="cart-pic first-row"><img src="img/cart-page/product-1.jpg" alt=""></td>
+                                    <td class="cart-title first-row">
+                                        <p>Lorem ipsum dolor sit amet, consectetur ing elit, sed do eiusmod tempor sum
+                                            dolor
+                                            sit amet, consectetur adipisicing elit, sed do mod tempor
+                                        </p>
+                                    </td>
+                                    <td class="p-price first-row">ULTRABOOT 20 SHOES</td>
+                                    <td class="p-price first-row">Running</td>
+
+                                    <td class="total-price first-row">$60.00</td>
+                                    <td class="close-td first-row">
+                                        <a href="javascript:;" onclick="dashboard.remove();" ><i class="fa fa-edit"></i></a> 
+                                        <a href="javascript:;" onclick="dashboard.remove();"><i class="fa fa-trash"></i></a>
+                                    </td>
+                                </tr> -->
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Shopping Cart Section End -->
+
+
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-left">
+                        <div class="footer-logo ">
+                            <a href="#"><img src="img/adidas-logo.jpg" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Address: 60-49 Road 11378 New York</li>
+                            <li>Phone: +84 973.586.506</li>
+                            <li>Email: hoangbachhiep2190@gmail.com</li>
+                        </ul>
+                        <div class="footer-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="footer-widget">
+                        <h5>Information</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Checkout</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Serivius</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-widget">
+                        <h5>My Account</h5>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Shopping Cart</a></li>
+                            <li><a href="#">Shop</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="newslatter-item">
+                        <h5>Join Our Newsletter Now</h5>
+                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Enter Your Mail">
+                            <button type="button">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-reserved">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-text">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Ku Sộp
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </div>
+                        <div class="payment-pic">
+                            <img src="img/payment-method.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+
+
+
+
+
+
+    <!-- The Modal -->
+    <div class="modal" id="addEditModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Create New Product</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form id="formAddEditProduct">
+                        <input type="text" id="productId" name="productId" hidden value="0">
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label for="">Product Name</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="text" class="form-control" name="ProductName" id="ProductName"
+                                    data-rule-required="true" data-msg-required="Product name is required">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label for="">Product Image</label>
+                            </div>
+                            <div class="col-8 form-grou">
+                                <!-- <img src="../imgs/NoImage.png" width="120px" height="150px">
+                <input type="file" name="upload" id="upload"> -->
+                                <input type="text" name="ProductImage" class="form-control" id="ProductImage"
+                                    data-rule-required="true" data-msg-required="Product image is required">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label for="">Price</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="text" class="form-control" name="Price" id="Price"
+                                    data-rule-required="true" data-msg-required="Price is required">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label for="">ProductType</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="text" class="form-control" name="ProductType" id="ProductType"
+                                    data-rule-required="true" data-msg-required="Price is required">
+                            </div>
+                        </div>
+                        <!-- <div class="row form-group">
+              <div class="col-4">
+                <label for="">Manufactory</label>
+              </div>
+              <div class="col-8">
+                <select name="Manufactory" id="Manufactory" class="form-control">
+                  <option value="ThaiLand" selected>ThaiLand</option>
+                  <option value="Korea">Korea</option>
+                  <option value="Japan">Japan</option>
+                </select>
+              </div>
+            </div> -->
+                        <div class="row form-group">
+                            <div class="col-4">
+                                <label for="">Desciption</label>
+                            </div>
+                            <div class="col-8">
+                                <textarea class="form-control" name="Description" id="Description" cols="30" rows="10"
+                                    data-rule-required="true" data-msg-required="Desciption is required"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="javascript:;" class="btn btn-success" id="btnProduct" onclick="dashboard.save()">Create</a>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/jquery.dd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="./libs/node_modules/bootbox/dist/bootbox.min.js"></script>
+    <script src="./libs/node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>
